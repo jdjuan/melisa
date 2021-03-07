@@ -1,0 +1,35 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.picture {
+  object-fit: contain;
+  margin-right: 2rem;
+}
+
+.description {
+  width: 18rem;
+}
+
+.chip {
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 4px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
